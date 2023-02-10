@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>University Registration</title>
+  </head>
+  <body>
+    <h1>University Registration</h1>
+    <form action="action.php" method="POST" target="_blank">
+      <fieldset>
+        <p>
+          <label>
+          Name: <input type="text" name="name">
+          </label>
+        </p>
+        <p>
+        Sex:
+          <label>
+            <input type="radio" name="sex"> Male
+          </label>
+          <label>
+            <input type="radio" name="sex"> Female
+          </label>
+        </p>
+        <p>
+        <label>
+          Year of birth:
+          <select name="yob">
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+          </select>
+          </label>
+        </p>
+        <p>
+          <label>
+            Brief Description:
+            <textarea name="description" cols="50" rows="4">Describe yourself...</textarea>
+          </label>
+        </p>
+        <hr size="2" width="500px" align="left">
+        <input type="submit" value="Send">
+        <input type="reset" value="Cancel">
+        </form>
+      </body>
+    </html>
